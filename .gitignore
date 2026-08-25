@@ -1,0 +1,16 @@
+# Virtual Environment
+.venv/
+env/
+
+# Data and Models
+data/*.parquet
+models/*.pkl
+
+# Python Cache and Build Artifacts
+__pycache__/
+*.egg-info/
+.pytest_cache/
+
+# IDE and System Files
+.vscode/
+.DS_Store
