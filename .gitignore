@@ -5,6 +5,7 @@ env/
 # Data and Models
 data/*.parquet
 models/*.pkl
+models/*.onnx
 
 # Python Cache and Build Artifacts
 __pycache__/
