@@ -110,7 +110,7 @@ Predicts trip duration given pickup/dropoff location IDs and trip distance.
 Accepts a list of trips and returns a list of predicted durations
 
 ### `GET /health`
-Returns a 200 OK status and system liveness. Used by the Docker container's HEALTHCHECK instruction
+Returns a `200 OK` status,verifying both system liveness and that the ONNX model is successfully loaded into memory
 ### `GET /metadata`
 Returns model metadata, versioning and training run information
 
