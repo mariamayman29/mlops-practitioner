@@ -5,6 +5,7 @@ env/
 # Data and Models
 data/*.parquet
 models/*.pkl
+models/*.onnx
 
 # Python Cache and Build Artifacts
 __pycache__/
@@ -14,3 +15,10 @@ __pycache__/
 # IDE and System Files
 .vscode/
 .DS_Store
+
+.env
+
+
+.coverage
+.pytest_cache/
+htmlcov/
