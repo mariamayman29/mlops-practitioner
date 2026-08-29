@@ -192,6 +192,3 @@ docker compose -f docker/docker-compose.yml up --build
 - **Containerization:** Docker (multi-stage build, non-root user)
 
 ---
-
-
-

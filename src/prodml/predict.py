@@ -58,8 +58,9 @@ class duration_predictor:
         X = self.dv.transform([trip_info]).toarray().astype(np.float32)
 
         input_name = self.session.get_inputs()[0].name
-        predicted_duration = predicted_duration = float(self.session.run(None, {input_name: X})[0].item()
-)
+        predicted_duration = predicted_duration = float(
+            self.session.run(None, {input_name: X})[0].item()
+        )
         logger.info(
             f"Predicted duration for trip {trip_info}: {predicted_duration:.2f} minutes"
         )
