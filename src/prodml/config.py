@@ -10,6 +10,8 @@ class Settings(BaseSettings):
     onnx_model_path: str = "models/baseline.onnx"
     test_size: float = 0.2
     random_state: int = 42
+    MLFLOW_TRACKING_URI: str 
+    
 
     model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8")
 
