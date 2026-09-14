@@ -9,7 +9,8 @@ services:
     volumes:
       - ../models:/app/models
     environment:
-      - MODEL_PATH=/app/models/baseline.onnx
+      - MODEL_PATH=/app/models/baseline.pkl
+      - MLFLOW_TRACKING_URI=http://mlflow:5000
     restart: unless-stopped
 
   db:
