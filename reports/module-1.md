@@ -36,4 +36,3 @@ Based on standard MLOps maturity models, this project has successfully transitio
 **Areas for Future Growth (Modules 2+):**
 * Currently, the model training and deployment processes are still triggered manually. 
 * Future modules will focus on implementing full CI/CD pipelines ( GitHub Actions) to automate testing, building, and deployment, as well as integrating experiment tracking (MLflow) to better monitor training runs and model registries
-
